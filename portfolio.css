@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: 'Fira Code', monospace;
+    background-size: cover;
+}
+
+nav {
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    background-color: #1F1B24;
+}
+
+div {
+    font-family: 'Fira Code', monospace;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 10px 20px;
+    border-right: 2px solid #444;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #00FFC6;
+}
+
+.menu a:last-child {
+    border-right: none;
+}
+
+p {
+    color: white;
+    font-family: 'Fira Code', monospace;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-right: 100px;
+}
+
+.titulo {
+    color: #00FFC6;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+strong {
+    color: #00FFC6;
+}
+
+h1 {
+    margin-left: 200px;
+    margin-top: 300px;
+    font-size: 60px;
+}
+
+h2 {
+    margin-left: 200px;
+    font-size: 40px;
+    color: #00FFC6;
+}
+
+button {
+    margin-left: 50px;
+    margin-top: 0px;
+    width: 300px;
+    height: 70px;
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    color: #121212;
+    background-color: #00FFC6;
+    border: none;
+    border-radius: 20px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #1de9b6;
+    color: #121212;
+    transform: scale(1.05);
+}
+
+.introduccion,
+.contenido,
+.objetivos,
+.metas,
+.pasiones,
+.valores,
+.contacto {
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+li {
+    margin-left: 150px;
+    font-size: 40px;
+    margin-right: 100px;
+    font-family: 'Fira Code', monospace;
+}
+
+.progress-bar {
+    margin-left: 200px;
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+}
+
+.left-section {
+    width: 65%;
+    padding-right: 20px;
+}
+
+.right-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.skills-images img {
+    width: 100px;
+    height: 100px;
+    margin-left: 300px;
+}
+
+.imgg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+
+.imgprinci {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contenidoo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contenidoo .texto {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.contenidoo .imgprinci {
+    width: 50%;
+    margin-right: 200px;
+    height: auto;
+    margin-top: 100px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    height: 70px;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.movil,
+.mail {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+}
+.linkedin{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px; 
+}
+.descargar{
+    width: 50px;
+    height: auto;
+}
+.redondo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #00FFC6;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.linkedin-link,
+.mimovil,
+.ig,
+.mail {
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+}
+
+.linkedin-link:hover,
+.mimovil:hover,
+.ig:hover,
+.mail:hover {
+    color: #00FFC6;
+    text-decoration: underline;
+}
